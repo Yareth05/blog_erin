@@ -1,172 +1,174 @@
-# Created by https://www.toptal.com/developers/gitignore/api/django
-# Edit at https://www.toptal.com/developers/gitignore?templates=django
+# Creado por https://www.toptal.com/developers/gitignore/api/django
+# Edita en https://www.toptal.com/developers/gitignore?templates=django
 
 ### Django ###
-*.log
-*.pot
+*.registro
+*.olla
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3-journal
+db.sqlite3
+db.sqlite3-diario
+medios de comunicación
 
-# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
-# in your Git repository. Update and uncomment the following line accordingly.
-# <django-project-name>/staticfiles/
+# Si tu proceso de compilación incluye la ejecución de collectstatic, entonces probablemente no necesites ni quieras incluir staticfiles/
+# en tu repositorio Git. Actualiza y descomenta la siguiente línea según corresponda.
+# <nombre-del-proyecto-django>/archivos-estáticos/
 
-### Django.Python Stack ###
-# Byte-compiled / optimized / DLL files
-*.py[cod]
+### Pila de Django y Python ###
+# Archivos compilados/optimizados/DLL
+*.py[código]
 *$py.class
 
-# C extensions
-*.so
+# Extensiones C
+*.entonces
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
+# Distribución / embalaje
+.Pitón
+construir/
+desarrollar-huevos/
+distancia/
+descargas/
+huevos/
+.huevos/
 lib/
 lib64/
-parts/
+regiones/
 sdist/
 var/
-wheels/
-share/python-wheels/
+ruedas/
+compartir/ruedas-python/
 *.egg-info/
 .installed.cfg
-*.egg
-MANIFEST
+*.huevo
+MANIFIESTO
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+Normalmente, estos archivos se escriben mediante un script de Python a partir de una plantilla.
+# antes de que PyInstaller compile el ejecutable, para inyectarle la fecha y otra información.
+*.manifiesto
+*.especulación
 
-# Installer logs
+# Registros del instalador
 pip-log.txt
-pip-delete-this-directory.txt
+pip-eliminar-este-directorio.txt
 
-# Unit test / coverage reports
+# Informes de pruebas unitarias / cobertura
 htmlcov/
 .tox/
 .nox/
-.coverage
-.coverage.*
+.cobertura
+.cobertura.*
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*.cubrir
 *.py,cover
-.hypothesis/
+.hipótesis/
 .pytest_cache/
-cover/
+cubrir/
 
-# Translations
-*.mo
+# Traducciones
+*.mes
 
-# Django stuff:
+# Cosas de Django:
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Cosas de Flask:
+instancia/
+caché de recursos web
 
-# Scrapy stuff:
+# Cosas de Scrapy:
 .scrapy
 
-# Sphinx documentation
+# Documentación de Sphinx
 docs/_build/
 
 # PyBuilder
 .pybuilder/
-target/
+objetivo/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # IPython
-profile_default/
+perfil_predeterminado/
 ipython_config.py
 
 # pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
+# Para una biblioteca o paquete, es posible que desee ignorar estos archivos ya que el código es
+# Diseñado para ejecutarse en múltiples entornos; de lo contrario, inclúyalos en:
 # .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
+#pipenv
+# Según pypa/pipenv#598, se recomienda incluir Pipfile.lock en el control de versiones.
+# Sin embargo, en caso de colaboración, si existen dependencias o dependencias específicas de la plataforma
+Al no tener soporte multiplataforma, pipenv puede instalar dependencias que no funcionen, o no
+# Instalar todas las dependencias necesarias.
 #Pipfile.lock
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+# poesía
+# Al igual que con Pipfile.lock, generalmente se recomienda incluir poetry.lock en el control de versiones.
+Esto se recomienda especialmente para paquetes binarios para garantizar la reproducibilidad, y es más
+# Generalmente se ignora en las bibliotecas.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poesía.lock
 
 # pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+# Al igual que con Pipfile.lock, generalmente se recomienda incluir pdm.lock en el control de versiones.
 #pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
+# pdm almacena las configuraciones de todo el proyecto en .pdm.toml, pero se recomienda no incluirlo.
+# en el control de versiones.
+# https://pdm.fming.dev/#use-with-ide
 .pdm.toml
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+# PEP 582; utilizado, por ejemplo, en github.com/David-OConnor/pyflow y github.com/pdm-project/pdm
 __pypackages__/
 
-# Celery stuff
-celerybeat-schedule
+# Cosas de apio
+Horario de celerybeat
 celerybeat.pid
 
-# SageMath parsed files
+# Archivos analizados por SageMath
 *.sage.py
 
-# Environments
+# Entornos
 .env
 .venv
-env/
+entorno/
 venv/
-ENV/
-env.bak/
+MEDIO AMBIENTE/
+entorno.bak/
 venv.bak/
 
-# Spyder project settings
+# Configuración del proyecto Spyder
 .spyderproject
 .spyproject
 
-# Rope project settings
-.ropeproject
+# Configuración del proyecto de cuerda
+.proyecto de cuerda
 
-# mkdocs documentation
-/site
+# Documentación de mkdocs
+/sitio
 
-# mypy
+#mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
-.pyre/
+# Comprobador de tipos Pyre
+.pira/
 
-# pytype static type analyzer
+# Analizador de tipos estático de pytype
 .pytype/
 
-# Cython debug symbols
+# Símbolos de depuración de Cython
 cython_debug/
 
 # PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+La plantilla específica de JetBrains se mantiene en un archivo JetBrains.gitignore separado que puede
+# Se puede encontrar en https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# y se puede añadir al archivo .gitignore global o fusionarlo con este archivo. Para una solución más nuclear
+# Opción (no recomendada): puedes descomentar lo siguiente para ignorar toda la carpeta de ideas.
 #.idea/
 
-# End of https://www.toptal.com/developers/gitignore/api/django
+# Fin de https://www.toptal.com/developers/gitignore/api/django
